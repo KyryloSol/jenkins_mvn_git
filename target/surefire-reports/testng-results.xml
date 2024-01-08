@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-08T14:46:49 EST" name="Regression TestSuite" finished-at="2024-01-08T14:46:49 EST" duration-ms="49">
+    <groups>
+      <group name="cars">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" name="testAudiA6" class="com.expedia.flightsbooking.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" name="testBMWX6" class="com.expedia.flightsbooking.TestNG_Grouping"/>
+      </group> <!-- cars -->
+      <group name="suv">
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" name="testBMWX6" class="com.expedia.flightsbooking.TestNG_Grouping"/>
+      </group> <!-- suv -->
+      <group name="sedan">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" name="testAudiA6" class="com.expedia.flightsbooking.TestNG_Grouping"/>
+      </group> <!-- sedan -->
+      <group name="motobike">
+        <method signature="TestNG_Grouping.testHondaCBR()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" name="testHondaCBR" class="com.expedia.flightsbooking.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testNinja()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" name="testNinja" class="com.expedia.flightsbooking.TestNG_Grouping"/>
+      </group> <!-- motobike -->
+    </groups>
+    <test started-at="2024-01-08T14:46:49 EST" name="GroupsDemo" finished-at="2024-01-08T14:46:49 EST" duration-ms="49">
+      <class name="com.expedia.flightsbooking.TestNG_Grouping">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" started-at="2024-01-08T14:46:49 EST" name="setUP" finished-at="2024-01-08T14:46:49 EST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="testAudiA6()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" started-at="2024-01-08T14:46:49 EST" name="testAudiA6" finished-at="2024-01-08T14:46:49 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAudiA6 -->
+        <test-method signature="testBMWX6()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" started-at="2024-01-08T14:46:49 EST" name="testBMWX6" finished-at="2024-01-08T14:46:49 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMWX6 -->
+        <test-method signature="testHondaCBR()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" started-at="2024-01-08T14:46:49 EST" name="testHondaCBR" finished-at="2024-01-08T14:46:49 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHondaCBR -->
+        <test-method signature="testNinja()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" started-at="2024-01-08T14:46:49 EST" name="testNinja" finished-at="2024-01-08T14:46:49 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNinja -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.expedia.flightsbooking.TestNG_Grouping@6eda5c9]" started-at="2024-01-08T14:46:49 EST" name="cleanUp" finished-at="2024-01-08T14:46:49 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.expedia.flightsbooking.TestNG_Grouping -->
+    </test> <!-- GroupsDemo -->
+  </suite> <!-- Regression TestSuite -->
+</testng-results>
